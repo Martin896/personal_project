@@ -13,7 +13,8 @@ While this repository serves as a personal learning journey, it is my aspiration
 GCC compiler
 
 #### Installing
-``` git clone https://github.com/Martin896/personal_project.git
+```
+git clone https://github.com/Martin896/personal_project.git
 # clone repository 
 ```
 ### Executing program
