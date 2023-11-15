@@ -7,7 +7,7 @@ int sum(int n)
 	if (n == 1)
 		return (1);
 	result = n + sum(n-1);
-	return(0);
+	return(result);
 }
 int main(void)
 {
@@ -18,6 +18,6 @@ int main(void)
 	if (num < 0)
 		printf("Numbers less than 1 are not allowed\n");
 	else
-		sum(num);
+		printf("The sum of numbers between 1 and %d is %d \n", num, sum(num));
 	return (0);
 }
